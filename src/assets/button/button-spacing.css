@@ -1,0 +1,29 @@
+.btn{
+    --btn-xs-y:0.125rem;
+    --btn-xs-x:0.25rem;
+    --btn-sm-y:0.25rem;
+    --btn-sm-x:0.5rem;
+    --btn-md-x:0.75rem;
+    --btn-md-y:0.5rem;
+    --btn-lg-x:1rem;
+    --btn-lg-y:0.75rem;
+    --btn-xl-x:1.25rem;
+    --btn-xl-y:0.95rem;
+}
+
+.btn-xs{
+    padding: var(--btn-xs-y) var(--btn-xs-x);
+}
+.btn-sm{
+    padding: var(--btn-sm-y) var(--btn-sm-x);
+}
+.btn-md{
+    padding: var(--btn-md-y) var(--btn-md-x);
+}
+.btn-lg{
+    padding: var(--btn-lg-y) var(--btn-lg-x);
+}
+.btn-xl{
+    padding: var(--btn-xl-y) var(--btn-xl-x);
+}
+
