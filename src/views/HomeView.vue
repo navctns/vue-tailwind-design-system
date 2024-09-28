@@ -41,6 +41,7 @@
     <card-design1/>
     <h4>Tables</h4>
     <simple-table/>
+    <simple-table color="dark"/>
     <h4>Accordion</h4>
     <simple-accordion/>
   </div>
