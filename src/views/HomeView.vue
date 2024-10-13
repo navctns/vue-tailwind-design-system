@@ -44,6 +44,13 @@
     <simple-table color="dark"/>
     <h4>Accordion</h4>
     <simple-accordion/>
+    <h4>Alert</h4>
+    <alert-item/>
+    <alert-item color="primary"/>
+    <h5 class="my-3">Navbars</h5>
+    <top-navbar/>
+    <top-navbar-menus-center/>
+    <top-navbar-menus-center-right-input/>
   </div>
 </template>
 <script>
@@ -57,6 +64,10 @@ import ListItem from '../components/listing/ListItem.vue';
 import CardDesign1 from '../components/cards/CardDesign1.vue';
 import SimpleTable from '../components/tables/SimpleTable.vue';
 import SimpleAccordion from '../components/accordion/SimpleAccordion.vue'
+import AlertItem from '../components/alerts/AlertItem.vue'
+import TopNavbar from '../components/navbars/TopNavbar.vue'
+import TopNavbarMenusCenter from '../components/navbars/TopNavbarMenusOnCenter.vue'
+import TopNavbarMenusCenterRightInput from '../components/navbars/TopNavbarMenusOnCenterRightInput.vue'
 export default {
   components: { 
     AppBtn, 
@@ -68,7 +79,11 @@ export default {
     ListItem,
     CardDesign1,
     SimpleTable,
-    SimpleAccordion
+    SimpleAccordion,
+    AlertItem,
+    TopNavbar,
+    TopNavbarMenusCenter,
+    TopNavbarMenusCenterRightInput
    },
   name: 'home-view',
   data(){
