@@ -51,6 +51,8 @@
     <top-navbar/>
     <top-navbar-menus-center/>
     <top-navbar-menus-center-right-input/>
+    <features-card1/>
+    <card-design2/>
   </div>
 </template>
 <script>
@@ -68,6 +70,8 @@ import AlertItem from '../components/alerts/AlertItem.vue'
 import TopNavbar from '../components/navbars/TopNavbar.vue'
 import TopNavbarMenusCenter from '../components/navbars/TopNavbarMenusOnCenter.vue'
 import TopNavbarMenusCenterRightInput from '../components/navbars/TopNavbarMenusOnCenterRightInput.vue'
+import FeaturesCard1 from '../components/cards/FeaturesCard1.vue';
+import CardDesign2 from '../components/cards/CardDesign2.vue';
 export default {
   components: { 
     AppBtn, 
@@ -83,7 +87,9 @@ export default {
     AlertItem,
     TopNavbar,
     TopNavbarMenusCenter,
-    TopNavbarMenusCenterRightInput
+    TopNavbarMenusCenterRightInput,
+    FeaturesCard1,
+    CardDesign2
    },
   name: 'home-view',
   data(){
